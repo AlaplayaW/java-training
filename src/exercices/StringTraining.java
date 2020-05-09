@@ -26,6 +26,7 @@ public class StringTraining {
      */
     public static boolean equals(String origin, String compare) {
 
+        // return origin.equals(compare) ? true : false;
         return origin == compare ? true : false;
     }
 
@@ -35,6 +36,7 @@ public class StringTraining {
      */
     public static String charToString(char value) {
 
+        // return Character.toString(value);
         return String.valueOf(value);
     }
 
@@ -44,6 +46,7 @@ public class StringTraining {
      */
     public static String intToString(int value) {
 
+        // return Integer.toString(value);
         return String.valueOf(value);
     }
 
