@@ -20,5 +20,6 @@ public class PrimitiveTraining {
 
     // TODO 5 : Create a method 'nothing', no result expected
     public static String nothing() { return null; }
+    //public static void nothing() { }
 
 }
