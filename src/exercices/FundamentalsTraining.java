@@ -120,7 +120,7 @@ public class FundamentalsTraining {
      * first minus second if first superior or equals to second, eg: 1
      */
     public static int addIfInferiorSubstractIfSuperiorOrEquals(int first, int second) {
-        return first < second ? first + second : first >= second ? first - second : null;
+        return first < second ? first + second : first - second;
     }
 
     /**
@@ -129,7 +129,7 @@ public class FundamentalsTraining {
      * @return true if first or second value is true, eg: true
      */
     public static boolean firstOrSecond(boolean first, boolean second) {
-        return first || second == true ? true : false;
+        return first || second ? true : false;
     }
 
     /**
@@ -138,7 +138,7 @@ public class FundamentalsTraining {
      * @return true if first and second value is true, eg: false
      */
     public static boolean firstAndSecond(boolean first, boolean second) {
-        return first && second == true ? true : false;
+        return first && second ? true : false;
     }
 
     /**
@@ -155,7 +155,7 @@ public class FundamentalsTraining {
      * @return false if value is true, true otherwise, eg: false
      */
     public static boolean notValue(boolean value) {
-        return value == true ? false : true;
+        return value ? false : true;
     }
 
     /**
@@ -165,6 +165,6 @@ public class FundamentalsTraining {
      * @return first value if isNotFirst is false, second value otherwise, eg: 4
      */
     public static int whichValueIsThis(int first, int second, boolean isNotFirst) {
-        return isNotFirst == false ? first : second;
+        return !isNotFirst ? first : second;
     }
 }
